@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         doneBtn.isHidden = true
         editBtn.isHidden = false
-        
+        ///Add data to the list
         DataAdd(fistName: "Subhranshu", lastName: "Rout", phoneNum: "7077955230", photo: "images11")
         DataAdd(fistName: "Adames", lastName: "John", phoneNum: "6370189652", photo: "images2")
         DataAdd(fistName: "Quincy Adames", lastName: "Jhon", phoneNum: "6985321470", photo: "images3")
@@ -37,7 +37,8 @@ class ViewController: UIViewController {
         DataAdd(fistName: "Cleveland", lastName: "Grover", phoneNum: "99635214780", photo: "images13")
         
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        ///Setting up the refreshControl
         myTable.refreshControl = rfc
         rfc.addTarget(self, action: #selector(refreshData(_:)), for: .valueChanged)
         myArray.sort(by: compareFunction)

@@ -105,10 +105,10 @@
 			children = (
 				2918418829E3DB5800E692DF /* AppDelegate.swift */,
 				2918418A29E3DB5800E692DF /* SceneDelegate.swift */,
-				2918418C29E3DB5800E692DF /* ViewController.swift */,
-				291841BA29E3DE5A00E692DF /* ContactDetails.swift */,
+				296B87F52B16FC230075EB92 /* StructureClasses */,
+				296B87F32B16FBF70075EB92 /* ViewControllers */,
+				296B87F42B16FC0E0075EB92 /* CustomCells */,
 				2918418E29E3DB5800E692DF /* Main.storyboard */,
-				291841B829E3DC8100E692DF /* TableViewCell.swift */,
 				2918419129E3DB5A00E692DF /* Assets.xcassets */,
 				2918419329E3DB5A00E692DF /* LaunchScreen.storyboard */,
 				2918419629E3DB5A00E692DF /* Info.plist */,
@@ -131,6 +131,30 @@
 				291841AB29E3DB5A00E692DF /* TableViewEditTaskUITestsLaunchTests.swift */,
 			);
 			path = TableViewEditTaskUITests;
+			sourceTree = "<group>";
+		};
+		296B87F32B16FBF70075EB92 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2918418C29E3DB5800E692DF /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		296B87F42B16FC0E0075EB92 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				291841B829E3DC8100E692DF /* TableViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		296B87F52B16FC230075EB92 /* StructureClasses */ = {
+			isa = PBXGroup;
+			children = (
+				291841BA29E3DE5A00E692DF /* ContactDetails.swift */,
+			);
+			path = StructureClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
